@@ -5,7 +5,6 @@ export default function markupImg({
   likes,
   views,
   comments,
-  downloads,
 }) {
   return `<div class='photo-card'>
   <a href='${largeImageURL}' class="photo-card__link">

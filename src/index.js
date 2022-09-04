@@ -15,7 +15,6 @@ const refs = {
 };
 
 refs.form.addEventListener('submit', onSearchSubmit);
-refs.loadMoreBtn.addEventListener('click', onLoadMore);
 
 let searchQuery = '';
 let page = 1;
@@ -62,6 +61,8 @@ function onRender(images) {
   const gallery = images.map(image => markupImg(image)).join('');
   refs.gallery.insertAdjacentHTML('beforeend', gallery);
 }
+
+refs.loadMoreBtn.addEventListener('click', onLoadMore);
 
 function onLoadMore() {
   try {
