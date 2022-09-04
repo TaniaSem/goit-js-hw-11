@@ -4,6 +4,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import markupImg from './js/markup_img';
 import fetchByQuery from './js/fetch';
+import './css/styles.css';
 
 // https://pixabay.com/api/?key=29563957-4f73ee18d6ec9b01780e978cb&q=${name}&image_type=photo
 
